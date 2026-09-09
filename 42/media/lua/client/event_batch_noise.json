@@ -1,0 +1,11 @@
+{
+  "trigger_type": "event_batch",
+  "events": [
+    { "type": "noise_heard", "detail": "a strange noise heard nearby, at (120,340)" }
+  ],
+  "state": {
+    "health": 85,
+    "nearby_zombies": [],
+    "nearby_items": []
+  }
+}

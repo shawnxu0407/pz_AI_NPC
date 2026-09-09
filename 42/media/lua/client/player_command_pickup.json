@@ -1,0 +1,11 @@
+{
+  "trigger_type": "player_command",
+  "player_command": "go grab that axe",
+  "state": {
+    "health": 90,
+    "nearby_zombies": [],
+    "nearby_items": [
+      { "id": "axe_01", "name": "axe", "x": 118, "y": 342 }
+    ]
+  }
+}

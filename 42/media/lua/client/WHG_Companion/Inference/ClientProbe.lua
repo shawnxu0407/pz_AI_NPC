@@ -1,5 +1,0 @@
--- SPDX-License-Identifier: Apache-2.0
---
--- Spike 001 client capability-probe bootstrap retained as historical source.
--- Spike 001 is complete, so this file intentionally registers no events.
--- The active development bootstrap is WHG_Companion/IPC/Spike002ClientHarness.lua.

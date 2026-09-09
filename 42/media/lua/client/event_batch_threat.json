@@ -1,0 +1,14 @@
+{
+  "trigger_type": "event_batch",
+  "events": [
+    { "type": "zombie_spotted", "detail": "two zombies approaching from 10 tiles away, have not noticed the player yet" }
+  ],
+  "state": {
+    "health": 85,
+    "nearby_zombies": [
+      { "x": 130, "y": 350 },
+      { "x": 135, "y": 355 }
+    ],
+    "nearby_items": []
+  }
+}

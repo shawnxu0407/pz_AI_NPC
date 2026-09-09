@@ -1,0 +1,9 @@
+{
+  "trigger_type": "player_command",
+  "player_command": "follow me",
+  "state": {
+    "health": 90,
+    "nearby_zombies": [],
+    "nearby_items": []
+  }
+}
