@@ -38,7 +38,8 @@ ACTION_SET: list[dict[str, str]] = [
     },
     {
         "name": "defend",
-        "desc": "Engage nearby threat in combat; use when zombies are in immediate melee range",
+        "desc":
+        "Fall back to the player's side and stay close while following their movement, remain combat-ready and engage nearby zombies if they enter attack range"
     },
     {
         "name": "loot",
@@ -125,8 +126,8 @@ COMPANION_PROFILES: dict[str, dict] = {
 # ---------------------------------------------------------------------------
 # Model defaults
 # ---------------------------------------------------------------------------
-DEFAULT_BASE_URL = "http://localhost:8080/v1"  # llama.cpp server
-DEFAULT_MODEL = "qwen2.5-0.5b-instruct-q4_k_m"  # from manifest.example.json
+DEFAULT_BASE_URL = "http://localhost:8080/v1"
+DEFAULT_MODEL = "Qwen3.5-0.8B-GGUF"
 DEFAULT_TEMPERATURE = 0.0
 DEFAULT_MAX_TOKENS = 256
 DEFAULT_TIMEOUT = 10.0

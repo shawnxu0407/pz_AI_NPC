@@ -1,0 +1,7 @@
+id=test_mod
+name=PZ test mod
+description=Local test mod for extracting info out and print
+author=Shawn Xu
+category=features
+modversion=0.0.2
+versionMin=42.20.0

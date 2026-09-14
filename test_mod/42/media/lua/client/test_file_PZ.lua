@@ -1,5 +1,5 @@
 local HISTORY_SIZE = 100
-local SAMPLE_INTERVAL_MS = 500   -- 500ms = twice every second
+local SAMPLE_INTERVAL_MS = 500   -- 500ms = 每秒 2 次
 local history = {}
 local lastSampleTime = 0
 
