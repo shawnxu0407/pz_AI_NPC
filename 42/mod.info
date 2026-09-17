@@ -1,7 +1,8 @@
-id=test_mod
-name=PZ test mod
-description=local test file for extracting info out from Project Zombiod
+id=AIAgentCompanion
+name=AI Companion
 author=Shawn Xu
+description=LLM-driven companion for Bandits NPC mod. Phase 1: FOLLOW + STANDBY via natural language.
+require=Bandits2
 category=features
-modversion=0.0.2
+modversion=0.1.0
 versionMin=42.20.0
